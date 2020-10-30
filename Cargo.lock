@@ -546,8 +546,7 @@ checksum = "bcc8e0c9bce37868955864dbecd2b1ab2bdf967e6f28066d65aaac620444b65c"
 [[package]]
 name = "heim"
 version = "0.0.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "51b8e403c0598237327b4143bdc1c7e01db0b358b5420579637e27cc117d573c"
+source = "git+https://github.com/petabyteboy/heim?rev=b00a9ba2159c0efcc9cb282aec332a6b89dc5548#b00a9ba2159c0efcc9cb282aec332a6b89dc5548"
 dependencies = [
  "heim-common",
  "heim-cpu",
@@ -564,8 +563,7 @@ dependencies = [
 [[package]]
 name = "heim-common"
 version = "0.0.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "144af2a423102dd4dd3e9fdd2c77c4756fb3c6c009d691628997fd5a2247719a"
+source = "git+https://github.com/petabyteboy/heim?rev=b00a9ba2159c0efcc9cb282aec332a6b89dc5548#b00a9ba2159c0efcc9cb282aec332a6b89dc5548"
 dependencies = [
  "cfg-if",
  "core-foundation 0.7.0",
@@ -583,8 +581,7 @@ dependencies = [
 [[package]]
 name = "heim-cpu"
 version = "0.0.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8abb50616d331bd75cd7f52d56b66114a0e8813fda2201c3618a105baa2b470d"
+source = "git+https://github.com/petabyteboy/heim?rev=b00a9ba2159c0efcc9cb282aec332a6b89dc5548#b00a9ba2159c0efcc9cb282aec332a6b89dc5548"
 dependencies = [
  "cfg-if",
  "heim-common",
@@ -598,8 +595,7 @@ dependencies = [
 [[package]]
 name = "heim-disk"
 version = "0.0.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "49e5740e687a7e1f1db597e14aff112b076f48997fe617b9b165e7c2f139d248"
+source = "git+https://github.com/petabyteboy/heim?rev=b00a9ba2159c0efcc9cb282aec332a6b89dc5548#b00a9ba2159c0efcc9cb282aec332a6b89dc5548"
 dependencies = [
  "bitflags",
  "cfg-if",
@@ -615,8 +611,7 @@ dependencies = [
 [[package]]
 name = "heim-host"
 version = "0.0.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d46019db89b0021344fd5bb8626a12cb5d9556aa8b79685ecc907b0c43e3c5f0"
+source = "git+https://github.com/petabyteboy/heim?rev=b00a9ba2159c0efcc9cb282aec332a6b89dc5548#b00a9ba2159c0efcc9cb282aec332a6b89dc5548"
 dependencies = [
  "cfg-if",
  "heim-common",
@@ -631,8 +626,7 @@ dependencies = [
 [[package]]
 name = "heim-memory"
 version = "0.0.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "216b66fececba2f68a08d15b893f0c5826346b5fb4c8d5201494f8ac2347d3bf"
+source = "git+https://github.com/petabyteboy/heim?rev=b00a9ba2159c0efcc9cb282aec332a6b89dc5548#b00a9ba2159c0efcc9cb282aec332a6b89dc5548"
 dependencies = [
  "cfg-if",
  "heim-common",
@@ -646,8 +640,7 @@ dependencies = [
 [[package]]
 name = "heim-net"
 version = "0.0.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "52b790922244bd5b139254a0411ea2b4e4175b3e4c261d52011a9c42535c7aa7"
+source = "git+https://github.com/petabyteboy/heim?rev=b00a9ba2159c0efcc9cb282aec332a6b89dc5548#b00a9ba2159c0efcc9cb282aec332a6b89dc5548"
 dependencies = [
  "bitflags",
  "cfg-if",
@@ -662,8 +655,7 @@ dependencies = [
 [[package]]
 name = "heim-process"
 version = "0.0.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2c8e29fca8becea6bc261c38230f3f45a358b7922451353dd068247a3ef059de"
+source = "git+https://github.com/petabyteboy/heim?rev=b00a9ba2159c0efcc9cb282aec332a6b89dc5548#b00a9ba2159c0efcc9cb282aec332a6b89dc5548"
 dependencies = [
  "cfg-if",
  "darwin-libproc",
@@ -684,8 +676,7 @@ dependencies = [
 [[package]]
 name = "heim-runtime"
 version = "0.0.6"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "00bd0a5a5e4af50d5d7d9537d3ecf02dca42c26bbbd8dd76621c5116dab14f69"
+source = "git+https://github.com/petabyteboy/heim?rev=b00a9ba2159c0efcc9cb282aec332a6b89dc5548#b00a9ba2159c0efcc9cb282aec332a6b89dc5548"
 dependencies = [
  "cfg-if",
  "futures-channel",
@@ -697,8 +688,7 @@ dependencies = [
 [[package]]
 name = "heim-sensors"
 version = "0.0.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2f1250df4d79d4238261588e5aaf1de0e7853dbe632f5bd6868e394d1e730024"
+source = "git+https://github.com/petabyteboy/heim?rev=b00a9ba2159c0efcc9cb282aec332a6b89dc5548#b00a9ba2159c0efcc9cb282aec332a6b89dc5548"
 dependencies = [
  "cfg-if",
  "heim-common",
@@ -708,8 +698,7 @@ dependencies = [
 [[package]]
 name = "heim-virt"
 version = "0.0.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e4b6ac6721ba5856659a197934ce522250a3ddd2e8646daa5660b41f1ba96457"
+source = "git+https://github.com/petabyteboy/heim?rev=b00a9ba2159c0efcc9cb282aec332a6b89dc5548#b00a9ba2159c0efcc9cb282aec332a6b89dc5548"
 dependencies = [
  "cfg-if",
  "heim-common",
@@ -1455,9 +1444,9 @@ checksum = "cccddf32554fecc6acb585f82a32a72e28b48f8c4c1883ddfeeeaa96f7d8e519"
 
 [[package]]
 name = "widestring"
-version = "0.4.0"
+version = "0.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "effc0e4ff8085673ea7b9b2e3c73f6bd4d118810c9009ed8f1e16bd96c331db6"
+checksum = "c168940144dd21fd8046987c16a46a33d5fc84eec29ef9dcddc2ac9e31526b7c"
 
 [[package]]
 name = "winapi"
